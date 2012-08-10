@@ -1,0 +1,24 @@
+!!! 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/chunkfive-fontface.css')
+    script(src='/js/lib/jquery-1.7.1.min.js')
+    script(src='/js/lib/underscore-min.js')
+    script(src='/js/lib/backbone-min.js')
+    script(src='/js/common.js')
+    
+  body
+    header
+      nav
+        ul
+          li 
+            a(href="/") Home
+          li 
+            a(href="/files") Uploaded Files
+          li 
+            a(href="/upload") Add new file
+    section#wrapper!= body
+        footer 
+          p This program was developed using nodejs, express, backbone, and jade

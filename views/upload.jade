@@ -1,0 +1,14 @@
+script(src='/js/upload.js')
+h1 Welcome to the file upload page
+    #uploader
+        form(method='post', action='/upload', enctype="multipart/form-data", id='uploadform')
+            input(type='file', name="textfile", id='textfileselect')
+            input(type='submit', value='Upload', id='textfilesubmit')
+        #progress
+            #start.pbar 0
+            #progressbarwrapper.pbar
+                #progressbar
+            #end.pbar 100
+        #statistics.uploadstats
+            ul
+        

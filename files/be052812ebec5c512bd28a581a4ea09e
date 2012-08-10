@@ -1,0 +1,56 @@
+Windows XP Home Edition with Service Pack 3 Retail (x86) Original
+
+This is the original release of Windows XP Home Edition Retail with SP3.
+
+If you visit;  
+http://msdn.microsoft.com/en-gb/subscriptions/downloads/default.aspx
+and look for Windows XP Home with Service Pack 3 (x86) - CD (English), you can see the true SHA1 hash value which matches this one. 
+
+As this is a retail version of XP it requires a fully genuine and valid license key. It would be pointless of me to provide a valid key because it would be in-valid after 3 people using it. Also, you can install this without a key but it requires you to enter one after 30 days. Lastly if you have your own key please use it.
+
+If you wish to update or modify this release, here are a few links to help you get started;
+
+*DriverPacks; 
+http://driverpacks.net/
+
+*How to create your own 3rd party driverpacks; 
+http://www.wincert.net/forum/index.php?showtopic=88
+
+*Nlite; 
+http://www.nliteos.com/
+
+*MSFN unattended guide; 
+http://unattended.msfn.org/unattended.xp/
+
+*How to create a theme addon to integrate with Nlite; 
+http://www.wincert.net/forum/index.php?showtopic=2619&st=20&p=29657&#entry29657
+
+*AddOns for Nlite 
+http://www.winaddons.com/
+
+*How to;
+1. Install ISORecorder.msi in download folder or use your own ISO burning software,
+2. Place blank CD in drive,
+3. To burn using isorecorder, right click en_windows_xp_home_with_service_pack_3_x86_cd_x14-92413.iso and select 'Copy image to CD'
+4. Upgrade by launching setup whilst on desktop or install fresh by booting from the CD.
+
+*en_windows_xp_home_with_service_pack_3_x86_cd_x14-92413.iso file hashes;
+
+SHA1: 5A6B959AD24D15DC7EBD85E501B83D105D1B37C6
+Size: 564 MB (592,154,624 bytes)
+
+*Check the file hashes by installing hastab-setup.exe in the download folder!
+
+
+Enjoy, :)	
+
+
+The trackers I have used;
+
+http://www.h33t.com:3310/announce
+http://inferno.demonoid.com:3395/announce
+http://open.tracker.thepiratebay.org/announce 
+http://denis.stalker.h3q.com:6969/announce 
+http://www.torrentsnipe.info:2701/announce 
+http://tpb.tracker.thepiratebay.org:80/announce
+udp://tpb.tracker.thepiratebay.org:80/announce 

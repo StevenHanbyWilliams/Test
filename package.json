@@ -1,0 +1,12 @@
+{
+  "name": "Test",
+  "description": "test of my abilities",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "2.5.1",
+    "underscore":">=1.2.2",
+  	"backbone":">=0.5.3",
+  	"jade":">=0.17.0"
+  }
+}
