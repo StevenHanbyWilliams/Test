@@ -48,7 +48,7 @@ app.post('/upload', function(req, res){
           //save the file the same way as it was uploaded, rather than the 
           //normal way that it saved
           filename = form.uploadDir + "/" + file.name
-          fs.rename(file.path, filename);
+          fs.renameSync(file.path, filename);
       })
       .on('end', function() {
       	//send it to the statsCalculator
