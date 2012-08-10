@@ -15,7 +15,7 @@ $(function($){
         	$(this.el).append("<ul></ul>");
         	for (var i = 0; i < response.length; i++) {
         		var filename = response[i];
-        		$('ul', this.el).append('<li></li>');
+        		$('ul', this.el).append('<li></li>'); //render as a list
         		var node = $(this.el).find('li').last();
         		this.statsView = new fileStatsView({el:node,filename:filename});
         	}
@@ -24,9 +24,8 @@ $(function($){
         //- init
         initialize:function() {
         	_.bindAll(this, 'render');
-            $('#textfilesubmit').prop('disabled',true);
-            $('#progress').css("display","none");
             
+            //get the list of files that have been uploaded already
             var query = this.url;
     		var self = this;
     		$.ajax({

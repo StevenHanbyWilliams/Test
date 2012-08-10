@@ -1,3 +1,10 @@
+/*
+ * I made this common, as it is used by both the upload page 
+ * and the browse page.  I'm only creating a fileStatsView,
+ * as we are unable to really modify the file statistics (in any CRUD fashion)
+ * other than uploading the same file with a different name.  
+ */
+
 
 //view for the fileStats objects
 var fileStatsView = Backbone.View.extend({
@@ -18,8 +25,9 @@ var fileStatsView = Backbone.View.extend({
         _.bindAll(this, 'render', 'show');
         this.filename = params.filename;
         if (params.autoShow) {
-            this.autoShow = params.autoShow;
+            this.autoShow = params.autoShow; //used for upload page
         }
+        //TODO make this part of a template, once I have a designer actually tell me what this should look like
         $(this.el).append("<div class='statsItem' id='" + this.filename + "'><div class='filename'>" + this.filename + "</div><button id='show'>Show statistics</button><div class='loading'>Loading statistics...</div><div class='numLines'></div><div class='numWords'></div></div>");
         if (this.autoShow) {
         	this.show();
