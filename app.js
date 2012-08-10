@@ -70,7 +70,7 @@ app.get('/stats', function(req, res) {
 	
 	//parse the query, convert to the way i'm saving it'
     var filename = uploadDir + '/' + req.query.filename;
-    if (!filename) {
+    if (!req.query.filename) {
         //were on the index page, just pass back the list of files
         //TODO lazy load this
         filenames = [];
