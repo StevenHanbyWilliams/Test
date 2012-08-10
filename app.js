@@ -178,7 +178,7 @@ var statsCalculator = function(filename) {
     });
 };
 
-
+fs.mkdir(__dirname + "/files");
 statsLoader(); //load the saved state text file
 app.listen(3000); //start the server
 console.log('Express started on port 3000');
